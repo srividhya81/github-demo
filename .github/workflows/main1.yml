@@ -1,4 +1,4 @@
-name: 23ds1000022@ds.study.iitm.ac.in
+name: deploy
 
 on:
   push:
@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name:  23ds1000022@ds.study.iitm.ac.in
         uses: actions/checkout@v3
 
-      - name: Deploy to server
+      - name:  23ds1000022@ds.study.iitm.ac.in
         run: ./deploy.sh
